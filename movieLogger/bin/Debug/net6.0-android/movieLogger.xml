@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>movieLogger</name>
+    </assembly>
+    <members>
+        <member name="P:movieLogger.ViewModel.WatchlistViewModel.Items">
+            <inheritdoc cref="F:movieLogger.ViewModel.WatchlistViewModel.items"/>
+        </member>
+        <member name="P:movieLogger.ViewModel.WatchlistViewModel.Text">
+            <inheritdoc cref="F:movieLogger.ViewModel.WatchlistViewModel.text"/>
+        </member>
+        <member name="F:movieLogger.ViewModel.WatchlistViewModel.addCommand">
+            <summary>The backing field for <see cref="P:movieLogger.ViewModel.WatchlistViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:movieLogger.ViewModel.WatchlistViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:movieLogger.ViewModel.WatchlistViewModel.Add"/>.</summary>
+        </member>
+        <member name="F:movieLogger.ViewModel.WatchlistViewModel.deleteCommand">
+            <summary>The backing field for <see cref="P:movieLogger.ViewModel.WatchlistViewModel.DeleteCommand"/>.</summary>
+        </member>
+        <member name="P:movieLogger.ViewModel.WatchlistViewModel.DeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:movieLogger.ViewModel.WatchlistViewModel.Delete(System.String)"/>.</summary>
+        </member>
+    </members>
+</doc>

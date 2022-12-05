@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="movieLogger.Pages.WatchlistPage"
+             Title="Watchlist"
+             xmlns:viewmodel="clr-namespace:movieLogger.ViewModel"
+             x:DataType="viewmodel:WatchlistViewModel"
+             NavigatedTo="populateColl">
+    
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to the Watchlist Page!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <ListView BackgroundColor="Salmon"
+                  ItemsSource="{Binding Items}"> <!--"Transparent"-->
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="{x:Type x:String}">
+                    <!--"x:Movie"-->
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Delete"
+                                           BackgroundColor="Red"
+                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:WatchlistViewModel}}, Path=DeleteCommand}"
+                                           CommandParameter="{Binding .}"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+                    </SwipeView>
+                </DataTemplate>    
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

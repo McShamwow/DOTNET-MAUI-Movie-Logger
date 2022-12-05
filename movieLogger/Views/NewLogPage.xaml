@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="movieLogger.NewLogPage"
+             Title="New Log">
+    <VerticalStackLayout>
+        
+        <Label 
+            Text="Welcome to the New Log Page!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label 
+            Text="Use this page to log a new movie to your watchlist."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- Title -->
+            <Label
+                Text="Title: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Entry
+                x:Name="titleEntry"     
+                Placeholder="Enter a title"
+                MaxLength="30"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- House -->
+            <Label
+                x:Name="housePickerLabel"
+                Text="House: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Picker
+                x:Name="housePicker"
+                Title="Select a viewing house"
+                HorizontalTextAlignment="Start"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:Int32}">
+                        <x:Int32>1</x:Int32>
+                        <x:Int32>2</x:Int32>
+                        <x:Int32>3</x:Int32>
+                        <x:Int32>4</x:Int32>
+                        <x:Int32>5</x:Int32>
+                        <x:Int32>6</x:Int32>
+                        <x:Int32>7</x:Int32>
+                        <x:Int32>8</x:Int32>
+                        <x:Int32>9</x:Int32>
+                        <x:Int32>10</x:Int32>
+                        <x:Int32>11</x:Int32>
+                        <x:Int32>12</x:Int32>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- Cost -->
+            <Label
+                Text="Ticket Cost: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Entry
+                x:Name="costEntry"    
+                Keyboard="Numeric"
+                Placeholder="Enter an amount"
+                MaxLength="30"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- MPA Rating -->
+            <Label
+                x:Name="mpaPickerLabel"
+                Text="MPA Rating: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Picker
+                x:Name="mpaRatingPicker"
+                Title="Select an MPA Rating"
+                HorizontalTextAlignment="Start"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>G</x:String>
+                        <x:String>PG</x:String>
+                        <x:String>PG-13</x:String>
+                        <x:String>R</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- Genre -->
+            <Label
+                x:Name="genreLabel"
+                Text="Genre: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Picker
+                x:Name="genre1Picker"
+                Title="Genre"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Action</x:String>
+                        <x:String>Adventure</x:String>
+                        <x:String>Animation</x:String>
+                        <x:String>Comedy</x:String>
+                        <x:String>Drama</x:String>
+                        <x:String>Family</x:String>
+                        <x:String>Fantasy</x:String>
+                        <x:String>Horror</x:String>
+                        <x:String>Musical</x:String>
+                        <x:String>Mystery</x:String>
+                        <x:String>Romance</x:String>
+                        <x:String>Sci-Fi</x:String>
+                        <x:String>Thriller</x:String>
+                        <x:String>War</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Label
+                x:Name="genreSpacerLabel"
+                Text=" / "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Picker
+                x:Name="genre2Picker"
+                Title="Subgenre"
+                HorizontalTextAlignment="Center"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Action</x:String>
+                        <x:String>Adventure</x:String>
+                        <x:String>Animation</x:String>
+                        <x:String>Comedy</x:String>
+                        <x:String>Drama</x:String>
+                        <x:String>Family</x:String>
+                        <x:String>Fantasy</x:String>
+                        <x:String>Horror</x:String>
+                        <x:String>Musical</x:String>
+                        <x:String>Mystery</x:String>
+                        <x:String>Romance</x:String>
+                        <x:String>Sci-Fi</x:String>
+                        <x:String>Thriller</x:String>
+                        <x:String>War</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- Date -->
+            <Label
+                x:Name="datePickerLabel"
+                Text="Viewing Date: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <DatePicker
+                x:Name="datePicker"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Format="d"
+                DateSelected="onDateSelected" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <!-- Title -->
+            <Label
+                Text="Day of week: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Entry
+                x:Name="dayOfWeekEntry"
+                IsEnabled="False"
+                Placeholder="Day"
+                MaxLength="10"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- Time -->
+            <Label
+                x:Name="timePickerLabel"
+                Text="Viewing Time: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <TimePicker
+                x:Name="timePicker"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                Format="t" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout HorizontalOptions="Center"> <!-- Director -->
+            <Label
+                x:Name="directorLabel"
+                Text="Director: "
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Entry
+                x:Name="directorEntry"
+                Placeholder="Enter a director"
+                MaxLength="30"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout >
+            <!-- Viewings -->
+            <Label
+                x:Name="stepperLabel"
+                Text="1 viewing"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Stepper
+                x:Name="viewingsStepper"
+                HeightRequest="50"
+                WidthRequest="90"
+                Value="1"
+                Minimum="1"
+                Maximum="10"
+                Increment="1"
+                ValueChanged="viewingsStepper_ValueChanged"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+
+        <Button
+            x:Name="insertNewMovieButton"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Center"
+            Margin="50"
+            Text="Add New Movie"
+            Clicked="onInsertNewMovieButtonClicked" />
+        
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿
+
+TODO: watchlist page
+
+- observable collection 
+
+i can get around this by stealing the login page from the other app
+and when the login button is clicked, run the function that populates obscol from mysql
+
+
+
+TODO: statistics page
+
+TODO: add icons to flyout page
+TODO: input validation for newlogpage
+TODO: add 'login' functionality
