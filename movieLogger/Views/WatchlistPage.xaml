@@ -3,33 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="movieLogger.Pages.WatchlistPage"
              Title="Watchlist"
-             xmlns:viewmodel="clr-namespace:movieLogger.ViewModel"
-             x:DataType="viewmodel:WatchlistViewModel"
-             NavigatedTo="populateColl">
+             xmlns:viewmodel="clr-namespace:movieLogger.Pages">
+            <!--xmlns:viewmodel="clr-namespace:movieLogger.ViewModel"-->
+            <!--:DataType="viewmodel:WatchlistViewModel"-->
     
-    <VerticalStackLayout>
+    <StackLayout HorizontalOptions="Center">
         <Label 
             Text="Welcome to the Watchlist Page!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <ListView BackgroundColor="Salmon"
-                  ItemsSource="{Binding Items}"> <!--"Transparent"-->
+        <ListView BackgroundColor="Transparent"
+                  VerticalScrollBarVisibility="Always"
+                  IsVisible="true"
+                  ItemsSource="{Binding titles}"
+                  x:Name="titlesList">
             <ListView.ItemTemplate>
-                <DataTemplate x:DataType="{x:Type x:String}">
-                    <!--"x:Movie"-->
+                <DataTemplate>
                     <SwipeView>
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <SwipeItem Text="Delete"
-                                           BackgroundColor="Red"
-                                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:WatchlistViewModel}}, Path=DeleteCommand}"
-                                           CommandParameter="{Binding .}"/>
+                                           BackgroundColor="Red"/>
                             </SwipeItems>
                         </SwipeView.RightItems>
                     </SwipeView>
                 </DataTemplate>    
             </ListView.ItemTemplate>
         </ListView>
-    </VerticalStackLayout>
+
+    </StackLayout>
 </ContentPage>

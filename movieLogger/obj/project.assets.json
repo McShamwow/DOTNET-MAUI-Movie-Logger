@@ -35552,11 +35552,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jake\\source\\repos\\movieLogger\\movieLogger\\movieLogger.csproj",
+      "projectUniqueName": "C:\\Users\\Jake\\Documents\\GitHub\\DOTNET-MAUI-Movie-Logger\\movieLogger\\movieLogger.csproj",
       "projectName": "movieLogger",
-      "projectPath": "C:\\Users\\Jake\\source\\repos\\movieLogger\\movieLogger\\movieLogger.csproj",
+      "projectPath": "C:\\Users\\Jake\\Documents\\GitHub\\DOTNET-MAUI-Movie-Logger\\movieLogger\\movieLogger.csproj",
       "packagesPath": "C:\\Users\\Jake\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jake\\source\\repos\\movieLogger\\movieLogger\\obj\\",
+      "outputPath": "C:\\Users\\Jake\\Documents\\GitHub\\DOTNET-MAUI-Movie-Logger\\movieLogger\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

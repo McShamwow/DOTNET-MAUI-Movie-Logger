@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "puiU3aA/3GjSlq4RF2d442ILk0eRUgFhczzZ80mZkanGobbSHtplxxheQjSr6BaGDBlisQF6p2rLsm1jqnl8Ow==",
+  "dgSpecHash": "SVohG0KPrYuXSLDHh4BVlgI8pvGnxSPhmkbWZ935eoT1eo79ySrS+ZUOvqYg2ED1ZpnrZ4QTbNcwWFonPJp3fA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jake\\source\\repos\\movieLogger\\movieLogger\\movieLogger.csproj",
+  "projectFilePath": "C:\\Users\\Jake\\Documents\\GitHub\\DOTNET-MAUI-Movie-Logger\\movieLogger\\movieLogger.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jake\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\Jake\\.nuget\\packages\\devexpress.maui.collectionview\\22.1.6\\devexpress.maui.collectionview.22.1.6.nupkg.sha512",

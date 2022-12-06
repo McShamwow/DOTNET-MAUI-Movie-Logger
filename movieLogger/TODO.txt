@@ -14,3 +14,5 @@ TODO: statistics page
 TODO: add icons to flyout page
 TODO: input validation for newlogpage
 TODO: add 'login' functionality
+TODO: prepared statements
+TODO: styling
