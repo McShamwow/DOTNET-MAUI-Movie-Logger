@@ -63,7 +63,8 @@
                 x:Name="LoginBtn"
                 Text="Login"
                 SemanticProperties.Hint="Login now"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Clicked="onLoginButtonClicked"/>
 
         </VerticalStackLayout>
 
