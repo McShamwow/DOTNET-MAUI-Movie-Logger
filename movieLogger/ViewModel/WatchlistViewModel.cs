@@ -8,12 +8,13 @@ namespace movieLogger.ViewModel
 {
     public partial class WatchlistViewModel : ObservableObject
     {
+        public ObservableCollection<string> Items { get; set; }
+
 
         public WatchlistViewModel()
         {
             var conn = DButils.createConnection();
             conn.Open();
-            Items = new ObservableCollection<string>();
             var rows = DButils.getAll(conn);
             while (rows.Read())
             {
@@ -22,31 +23,8 @@ namespace movieLogger.ViewModel
             }
             conn.Close();
         }
-        [ObservableProperty]
-        ObservableCollection<string> items;
-
-        [ObservableProperty]
-        string text;
 
 
-        [RelayCommand]
-        void Add()
-        {
-            if (string.IsNullOrWhiteSpace(Text))
-            {
-                return;
-            }
-            Items.Add(text);
-            Text = string.Empty;
-        }
 
-        [RelayCommand]
-        void Delete(string s)
-        {
-            if (Items.Contains(s))
-            {
-                Items.Remove(s);
-            }
-        }
     }
 }
