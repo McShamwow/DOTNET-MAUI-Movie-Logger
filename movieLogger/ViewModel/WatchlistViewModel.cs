@@ -10,7 +10,6 @@ namespace movieLogger.ViewModel
     {
         public ObservableCollection<string> Items { get; set; }
 
-
         public WatchlistViewModel()
         {
             var conn = DButils.createConnection();
@@ -22,9 +21,8 @@ namespace movieLogger.ViewModel
                 Items.Add(title);
             }
             conn.Close();
+
         }
-
-
 
     }
 }

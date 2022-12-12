@@ -1238,12 +1238,10 @@ C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\ne
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\Mono.Android.pdb
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\movieLogger.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\movieLogger.pdb
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\MySqlConnector.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\netstandard.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.AppContext.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Buffers.dll
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Collections.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Collections.Immutable.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Collections.NonGeneric.dll
@@ -1259,7 +1257,6 @@ C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\ne
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Core.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Data.Common.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Data.DataSetExtensions.dll
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Data.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Contracts.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Debug.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Diagnostics.DiagnosticSource.dll
@@ -1270,7 +1267,6 @@ C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\ne
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tools.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Diagnostics.TraceSource.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tracing.dll
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Drawing.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Drawing.Primitives.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Dynamic.Runtime.dll
@@ -1304,7 +1300,6 @@ C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\ne
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.HttpListener.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.Mail.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.NameResolution.dll
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.Ping.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.Primitives.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.Quic.dll
@@ -1320,9 +1315,7 @@ C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\ne
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Numerics.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.ObjectModel.dll
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Private.DataContractSerialization.dll
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Private.Xml.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Private.Xml.Linq.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Reflection.DispatchProxy.dll
@@ -1389,7 +1382,6 @@ C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\ne
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Web.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Web.HttpUtility.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Windows.dll
-C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Xml.Linq.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Xml.Serialization.dll
@@ -2150,3 +2142,11 @@ C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\ne
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\mscorlib.dll
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Data.dll
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.dll
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\obj\Debug\net6.0-android\android\assets\System.Xml.dll

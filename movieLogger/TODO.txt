@@ -2,10 +2,11 @@
 
 TODO: watchlist page
 
-- observable collection 
+- NOTE: i could not get the databindings to work properly using xaml and codebehind.
+it was the most frustrating thing in the world to debug but I just could not get it to work.
+Everything for the watchlist page is done in the codebehind .cs file. This is the only
+page in the project with this characteristic.
 
-i can get around this by stealing the login page from the other app
-and when the login button is clicked, run the function that populates obscol from mysql
 
 
 

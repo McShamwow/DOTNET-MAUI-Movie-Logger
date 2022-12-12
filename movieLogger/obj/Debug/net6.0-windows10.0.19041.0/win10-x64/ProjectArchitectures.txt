@@ -1,1 +1,1 @@
-C:\Users\Jake\source\repos\movieLogger\movieLogger\movieLogger.csproj;x64
+C:\Users\Jake\Documents\GitHub\DOTNET-MAUI-Movie-Logger\movieLogger\movieLogger.csproj;x64

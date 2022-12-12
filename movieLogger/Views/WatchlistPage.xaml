@@ -2,35 +2,30 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="movieLogger.Pages.WatchlistPage"
-             Title="Watchlist"
-             xmlns:viewmodel="clr-namespace:movieLogger.Pages">
-            <!--xmlns:viewmodel="clr-namespace:movieLogger.ViewModel"-->
-            <!--:DataType="viewmodel:WatchlistViewModel"-->
-    
-    <StackLayout HorizontalOptions="Center">
+             xmlns:local="clr-namespace:movieLogger"
+             Title="Watchlist">
+
+    <!--<StackLayout HorizontalOptions="Center">
         <Label 
             Text="Welcome to the Watchlist Page!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
         <ListView BackgroundColor="Transparent"
+                  VerticalOptions="Center"
+                  HorizontalOptions="Center"
                   VerticalScrollBarVisibility="Always"
                   IsVisible="true"
                   ItemsSource="{Binding titles}"
+                  ItemSelected="onMovieSelected"
+                  ItemTapped="onMovieSelected"
                   x:Name="titlesList">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <SwipeView>
-                        <SwipeView.RightItems>
-                            <SwipeItems>
-                                <SwipeItem Text="Delete"
-                                           BackgroundColor="Red"/>
-                            </SwipeItems>
-                        </SwipeView.RightItems>
-                    </SwipeView>
-                </DataTemplate>    
+                    <TextCell Text="{Binding string}"/>
+                </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-
-    </StackLayout>
+    </StackLayout>-->
 </ContentPage>
+    
