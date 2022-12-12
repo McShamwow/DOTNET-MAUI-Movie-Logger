@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using movieLogger;
+using movieLogger.Pages;
+using movieLogger.ViewModel;
 using MySqlConnector;
 
 namespace ITS440_JakeStewart_FinalProject
@@ -54,6 +56,7 @@ namespace ITS440_JakeStewart_FinalProject
             if (rows > 0)
             {
                 await App.Current.MainPage.DisplayAlert("Alert", "Movie successfully logged!", "OK");
+                
             }
             else
             {
